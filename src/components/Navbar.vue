@@ -14,7 +14,7 @@ export default {
     }
   },
   async created () {
-    const res = await fetch('https://api.countapi.xyz/hit/crypto-app/haus')
+    const res = await fetch('https://api.countapi.xyz/hit/inspiring-lamport-d5df0b.netlify.app/haus')
     const json = await res.json()
     this.count = json.value
   }
