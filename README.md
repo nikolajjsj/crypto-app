@@ -8,7 +8,7 @@ And the count shown in the navbar shows the number of hits from:
 https://api.countapi.xyz/hit/namespace/key
 
 The app is hosted on Netlify:
-
+https://inspiring-lamport-d5df0b.netlify.app/
 
 ## Project setup
 ```
