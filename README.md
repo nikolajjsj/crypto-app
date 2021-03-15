@@ -10,6 +10,9 @@ https://api.countapi.xyz/hit/namespace/key
 The app is hosted on Netlify:
 https://inspiring-lamport-d5df0b.netlify.app/
 
+I have used the Chart.js library for graphs:
+https://www.chartjs.org/
+
 ## Project setup
 ```
 npm install
