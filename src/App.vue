@@ -1,10 +1,17 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <Navbar />
+  <router-view class="container" />
 </template>
+
+<script>
+import Navbar from '@/components/Navbar.vue'
+
+export default {
+  components: {
+    Navbar
+  }
+}
+</script>
 
 <style>
 #app {
@@ -13,18 +20,22 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
 }
 
-#nav {
-  padding: 30px;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.text-danger {
+  color: red;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.text-succes {
+  color: green;
 }
 </style>
